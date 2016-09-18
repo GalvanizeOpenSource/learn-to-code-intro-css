@@ -1,4 +1,4 @@
-# Learn to Code - Intro to HTML
+# Learn to Code - Intro to CSS
 
 Brought to you by Galvanize. Learn more about the way we teach code at [galvanize.com](galvanize.com).
 
@@ -43,7 +43,9 @@ Recipes to give to your computer to “cook” up some awesome things for you on
 3. Go to your downloads folder and double click on the .zip file to unzip it
 4. From Atom: File > open, select the folder and then click "Open"
 5. From Atom: If the file tree does not appear on the left hand View > Toggle Tree View -- this will show you the entire folder within Atom
-6. Open up the file in your browser -- index.html
+6. Open up the file in your browser -- 
+  a. index.html
+  b. style.css
 
 #### Alternative: Use CodePen to code for this course
 
@@ -54,4 +56,4 @@ Patience! Setting up your computer takes time and can be tricky, especially acro
 
 Once you're ready, you can move onto the next lesson.
 
-H.T.M.L. - "the building blocks of the internet"
+## H.T.M.L. - "the building blocks of the internet"
