@@ -116,9 +116,22 @@ We're going to start you off with a prepared HTML page that looks like this.
 
 If you don't remember HTML, now is a good time to review the [HTML course](https://github.com/GalvanizeOpenSource/learn-to-code-intro-html/).
 
+**ONE CHANGE:** For those of you working in Atom, you have to "connect" your CSS file to your HTML file.
+
+You can do so with the following code in the header:
+
+```html
+  <head>
+    <title>
+      Hello! Learn to Code CSS with us!
+    </title>
+    **<link src="style.css" rel="stylesheet />**
+  </head>
+```  
+
 We'll be adding CSS classes and IDs into this HTML, but first, an overview of the syntax.
 
-#### Syntax of CSS:
+## Syntax of CSS:
 
 ```css
 h1 {  // this is either an element, class, or ID
@@ -132,6 +145,8 @@ Space doesn’t matter, but “onion” rules apply
 #### What are Classes?
 
 Classes are attributes something to multiple elements on a page noted with a “.” symbol in CSS.
+
+Below is an example.
 
 HTML:
 ```html
@@ -158,8 +173,84 @@ e.g. everything with class=”ninja” should have the same attributes
 * Work in pairs! Even the pros do it
 * Ask for help - we’re in a school!
 
- 
+#### Let's create our first class
 
+Improve the blocks of text with some style. First, let's build a CSS class that pads it a little and changes the front to something... nicer.:
+
+```css
+.text-block {
+    padding: 20px;
+    font-family: Trebuchet MS;
+}
+```
+We're not done yet! Add the class `text-block` into the first HTML element. No need for the "." in HTML.
+
+```html
+    <div class="text-block">
+      This is a wall of text. What can you do to make it more visually appealing in this webpage? Right now, it sure could use a little style.
+    </div> 
+```
+
+_Did something change?_ What happens if you add the class `text-block` to the other HTML `<div>` element with text?
+
+**Keep going!** Let's do some more challenges.
+
+#### Let's add some style to the header
+
+First, let's create a new class called `.header` in the `style.css` file and give it the following attributes:
+
+_style.css_
+```css
+.header {
+    height:50px;
+    background:#D9D9D9;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto; 
+}
+```
+There's a lot going on here, but basically, we're adding a lot of different styles to a single class.
+
+Now, let's add that class into our HTML element. 
+
+```html
+    <header class="header">This is a header. Make it look better.</header>
+```
+
+Refresh your browser - _do you see a difference?_
+
+_Feeling ambitious?_ Try the next exercise:
+
+#### Improve the <nav> bar
+
+There's a navigation menu in there, but it doesn't look great. Add the following code into your CSS page.
+
+```css
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+```
+
+Navigations are structured as lists in HTML, so we're telling CSS to perform in certain ways. 
+
+Add a few links into your `<nav>` items and see if the effect takes place.
 
 #### What are IDs?
 
@@ -182,6 +273,10 @@ IDs are used to direct functions to unique elements in the HTML so that there’
 e.g clicking to a specific part of page
 
 In tandem, you can do a lot with HTML & CSS! Let's give it a shot!
+
+## LET'S CODE
+
+
 
 
 
