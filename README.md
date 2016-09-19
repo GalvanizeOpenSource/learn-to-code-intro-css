@@ -37,7 +37,7 @@ Recipes to give to your computer to “cook” up some awesome things for you on
 #### Please set up the following:
 
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: chrome.google.com)
-* A text editor to modify your files (Recommend the Atom text editor: Atom.io)
+* A text editor to modify your files (Recommend the Atom text editor: [Atom.io](Atom.io))
 * Download the tutorial files on this page within the zip file
 
 ####  Download the file for this class:
