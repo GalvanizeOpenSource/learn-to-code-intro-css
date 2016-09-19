@@ -14,13 +14,17 @@ The goal of this brief course is to provide you with a fun introduction to the w
 * Advanced CSS features
 * Playing around in the sandbox
 
+**This course presumes some knowledge of HTML.** If you need to review, check out [our course](https://github.com/GalvanizeOpenSource/learn-to-code-intro-html/) at the link below.
+
+_Learn To Code HTML_: [https://github.com/GalvanizeOpenSource/learn-to-code-intro-html/](https://github.com/GalvanizeOpenSource/learn-to-code-intro-html/)
+
 #### Before you begin, a quick gut check:
 
-This course is for absolute beginners
-Feel free to move ahead
-Help others when you can
-Be patient and nice
-You will get through it!
+* This course is for absolute beginners
+* Feel free to move ahead
+* Help others when you can
+* Be patient and nice
+* You will get through it!
 
 #### What web coding is (really)?
 
@@ -49,11 +53,11 @@ Recipes to give to your computer to “cook” up some awesome things for you on
 
 #### Alternative: Use CodePen to code for this course
 
-1. Go to this link https://codepen.io/leepngo/pen/KgrLNw[https://codepen.io/leepngo/pen/KgrLNw](https://codepen.io/leepngo/pen/KgrLNw). You will be taken to a page where you can simulate the coding experience.
+1. Go to this link [https://codepen.io/leepngo/pen/KgrLNw](https://codepen.io/leepngo/pen/KgrLNw). You will be taken to a page where you can simulate the coding experience.
 Focus on the window called "HTML" and "CSS". We'll work mostly in that one. Feel free to close the "JS" window.
 
-Patience! Setting up your computer takes time and can be tricky, especially across platforms.
+**Patience!** Setting up your computer takes time and can be tricky, especially across platforms.
 
 Once you're ready, you can move onto the next lesson.
 
-## H.T.M.L. - "the building blocks of the internet"
+
