@@ -53,11 +53,88 @@ Recipes to give to your computer to “cook” up some awesome things for you on
 
 #### Alternative: Use CodePen to code for this course
 
-1. Go to this link [https://codepen.io/leepngo/pen/KgrLNw](https://codepen.io/leepngo/pen/KgrLNw). You will be taken to a page where you can simulate the coding experience.
-Focus on the window called "HTML" and "CSS". We'll work mostly in that one. Feel free to close the "JS" window.
+1. Go to this link: [https://codepen.io/leepngo/pen/KgrLNw](https://codepen.io/leepngo/pen/KgrLNw).
+2. You will be taken to a page where you can simulate the coding experience.
+3. Focus on the windows called "HTML" and "CSS". We'll work mostly in that one. Feel free to minimize the "JS" window.
 
 **Patience!** Setting up your computer takes time and can be tricky, especially across platforms.
 
 Once you're ready, you can move onto the next lesson.
 
+## Overview of CSS
+
+#### What Does CSS Stand for?
+
+* _Cascading_ - prioritizing certain values over others
+* _Style_ - focusing on layout, colors, fonts, etc.
+* _Sheet_ - another name for the file we use here
+The internet used to be ugly. Enter CSS - a consolidated way to make it prettier.
+
+#### Three primary objects:
+
+* Elements: e.g. h1, div, body, a - default HTML (already reviewed)
+* IDs: everything that starts with a “#”
+* Classes: everything that starts with a “.”
+
+#### Syntax of CSS:
+
+```css
+h1 {  // this is either an element, class, or ID
+    font-size: 24px; // syntax is name: value;
+    font-weight: bold;
+    color: #000000; // hexadecimal, RGB, etc.
+}
+```
+Space doesn’t matter, but “onion” rules apply
+
+#### What are IDs?
+
+IDs are attributes that are used only on one element ONLY and noted with a “#” symbol in CSS e.g.
+
+HTML:
+```html
+<a id=”leesName”>Lee Ngo</a>
+```
+
+CSS: 
+```css
+#leesName { 
+    color: white; 
+}
+```
+
+IDs are used to direct functions to unique elements in the HTML so that there’s no confusion
+
+e.g clicking to a specific part of page
+
+What are Classes?
+
+Classes are attributes something to multiple elements on a page noted with a “.” symbol in CSS.
+
+HTML:
+```html
+ 
+<a class=”ninja”>Lee Ngo</a>
+```
+
+CSS:
+```css
+.ninja { 
+    color: black; margin: 10px; 
+}
+```
+
+Classes are used to change or affect multiple items in an HTML document at once
+
+e.g. everything with class=”ninja” should have the same attributes
+
+In tandem, you can do a lot with HTML & CSS! Let's give it a shot!
+
+## LET'S CODE!
+
+Remember:
+
+Coding can be hard - be patient!
+Work in pairs! Even the pros do it
+Ask for help - we’re in a school!
 
