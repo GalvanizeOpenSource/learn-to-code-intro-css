@@ -72,9 +72,51 @@ The internet used to be ugly. Enter CSS - a consolidated way to make it prettier
 
 #### Three primary objects:
 
-* Elements: e.g. h1, div, body, a - default HTML (already reviewed)
-* IDs: everything that starts with a “#”
-* Classes: everything that starts with a “.”
+* _Elements_: e.g. h1, div, body, a - default HTML (already reviewed)
+* _Classes_: everything that starts with a “.”
+* _IDs_: everything that starts with a “#”
+
+#### Elements
+
+We're going to start you off with a prepared HTML page that looks like this.
+
+```html
+<html>
+  <head>
+    <title>
+      Hello! Learn to Code CSS with us!
+    </title>
+  </head>
+  <body>
+    <header>This is a header. Make it look better.</header>
+    <h1>This is a vertical navigation bar.</h1>
+    <nav>
+      <ul>
+        <li>Header</li>
+        <li>Text #1</li> 
+        <li>Text #2</li> 
+        <li>Footer</li> 
+      </ul>  
+    </nav>
+    <div>
+      This is a wall of text. What can you do to make it more visually appealing in this webpage? Right now, it sure could use a little style.
+    </div>  
+    <h1>This is a horizontal navigation bar.</h1>
+    <nav>
+      <a>Header</a> | <a>Text #1</a> | <a>Text #2</a> | <a>Footer</a>
+    </nav> 
+    <div>
+      This is a wall of text. Can you make it look like the last wall of text without having to write too much code?
+    </div>
+    <div>Can you change some of the words in this text to the same color? What if you wanted to change them to a different color? How would you do that? 
+    <footer>This is a footer. Make it look better.</footer>
+  </body>  
+</html>
+```
+
+If you don't remember HTML, now is a good time to review the [HTML course](https://github.com/GalvanizeOpenSource/learn-to-code-intro-html/).
+
+We'll be adding CSS classes and IDs into this HTML, but first, an overview of the syntax.
 
 #### Syntax of CSS:
 
@@ -86,6 +128,38 @@ h1 {  // this is either an element, class, or ID
 }
 ```
 Space doesn’t matter, but “onion” rules apply
+
+#### What are Classes?
+
+Classes are attributes something to multiple elements on a page noted with a “.” symbol in CSS.
+
+HTML:
+```html
+ 
+<a class=”ninja”>Lee Ngo</a>
+```
+
+CSS:
+```css
+.ninja { 
+    color: black; margin: 10px; 
+}
+```
+
+Classes are used to change or affect multiple items in an HTML document at once
+
+e.g. everything with class=”ninja” should have the same attributes
+
+## LET'S CODE!
+
+**Remember:**
+
+* Coding can be hard - be patient!
+* Work in pairs! Even the pros do it
+* Ask for help - we’re in a school!
+
+ 
+
 
 #### What are IDs?
 
@@ -107,34 +181,7 @@ IDs are used to direct functions to unique elements in the HTML so that there’
 
 e.g clicking to a specific part of page
 
-What are Classes?
-
-Classes are attributes something to multiple elements on a page noted with a “.” symbol in CSS.
-
-HTML:
-```html
- 
-<a class=”ninja”>Lee Ngo</a>
-```
-
-CSS:
-```css
-.ninja { 
-    color: black; margin: 10px; 
-}
-```
-
-Classes are used to change or affect multiple items in an HTML document at once
-
-e.g. everything with class=”ninja” should have the same attributes
-
 In tandem, you can do a lot with HTML & CSS! Let's give it a shot!
 
-## LET'S CODE!
 
-Remember:
-
-Coding can be hard - be patient!
-Work in pairs! Even the pros do it
-Ask for help - we’re in a school!
 
