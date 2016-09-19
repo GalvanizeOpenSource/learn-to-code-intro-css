@@ -125,7 +125,9 @@ You can do so with the following code in the header:
     <title>
       Hello! Learn to Code CSS with us!
     </title>
-    **<link src="style.css" rel="stylesheet />**
+    
+    <link href="style.css" rel="stylesheet type="text/css" /> <!-- Add this line to your code -->
+    
   </head>
 ```  
 
@@ -183,6 +185,7 @@ Improve the blocks of text with some style. First, let's build a CSS class that 
     font-family: Trebuchet MS;
 }
 ```
+
 We're not done yet! Add the class `text-block` into the first HTML element. No need for the "." in HTML.
 
 ```html
@@ -276,7 +279,94 @@ In tandem, you can do a lot with HTML & CSS! Let's give it a shot!
 
 ## LET'S CODE
 
+Let's use the second `<nav>` bar to navigate to specific parts of the page. Let's create some anchor tags into the nav bar to make the items "clickable."
 
+```html
+    <nav>
+    <!-- add code below -->
+      <a href="#header">Header</a> | <a href="#text-1">Text #1</a> | <a href="#text-2">Text #2</a> | <a href="#footer">Footer</a> 
+    <!-- add code above -->
+    </nav> 
+```
+Now add corresponding id designations to the various HTML tags. Don't use the "#" symbol.
 
+```html
+<html>
+  <head>
+    <title>
+      Hello! Learn to Code CSS with us!
+    </title>
+  </head>
+  <body>
+  <!-- add code below -->
+    <header id="header">This is a header. Make it look better.</header>
+  <!-- add code above -->  
+    <h1>This is a vertical navigation bar.</h1>
+    <nav>
+      <ul>
+        <li>Header</li>
+        <li>Text #1</li> 
+        <li>Text #2</li> 
+        <li>Footer</li> 
+      </ul>  
+    </nav>
+    <!-- add code below -->
+    <div id="text-1">
+    <!-- add code above -->  
+      This is a wall of text. What can you do to make it more visually appealing in this webpage? Right now, it sure could use a little style.
+    </div>  
+    <h1>This is a horizontal navigation bar.</h1>
+    <nav>
+      <a href="#header">Header</a> | <a href="#text-1">Text #1</a> | <a href="#text-2">Text #2</a> | <a href="#footer">Footer</a> 
+    </nav> 
+    <!-- add code below -->
+    <div id="text-2">
+    <!-- add code above -->  
+      This is a wall of text. Can you make it look like the last wall of text without having to write too much code?
+    </div>
+    <div>Can you change some of the words in this text to the same color? What if you wanted to change them to a different color? How would you do that? 
+    <!-- add code below -->
+    <footer id="footer">This is a footer. Make it look better.</footer>
+    <!-- add code above -->  
+  </body>  
+</html>
+```
+Great! Now save your work and click on your new links. _What happens?_
 
+**Advice** Try not to use IDs as selectors. They could lead to problems in your code moving forward.
 
+## PLAY IN THE SANDBOX
+
+You have the basics down. Try doing more - look up online for those options:
+
+1. Change the background of the entire webpage
+2. Add some buttons - they're nicer-looking than links
+3. Try importing [Bootstrap](http://getbootstrap.com/) and playing around with it
+4. Can you do animations in HTML/CSS alone...?
+
+- Show what you did with the others! 
+
+# YOU DID IT! YOU'RE NOW A CODER!
+
+Welcome to the cool kids club.
+
+#### Want to code more? Check out Galvanize's Full Stack Immersive Program!
+
+- 24 Week Full-Time Program
+- High Job Placement Rate within six months
+- Average starting salary: $77,000 per annum
+- Scholarships available for those who qualify
+- Learn more at [http://galvanize.com/courses/web-development/](http://galvanize.com/courses/web-development/)
+
+#### Looking for something more flexible? Check out our  Workshops!
+
+- Zero to Web Designer
+- Foundations of JavaScript
+- Web Development Immersive Prep
+- Learn more at http://www.galvanize.com/workshops/
+
+#### About the Authors
+
+[Lee Ngo](http://linkedin.com/in/leengo) is an evangelist for Galvanize based in Seattle. Previously he worked for UP Global (now Techstars) and founded his own ed-tech company in Pittsburgh, PA. Lee believes in learning by doing, engaging and sharing, and he teaches code through a combination of visual communication, teamwork, and project-oriented learning.
+
+You can email him at [lee.ngo@galvanize.com](mailto:lee.ngo@galvanize.com) for any further questions. 
